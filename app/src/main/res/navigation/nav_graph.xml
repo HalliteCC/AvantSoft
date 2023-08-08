@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/UIHome">
+
+    <fragment
+        android:id="@+id/UIHome"
+        android:name="com.example.avantsoft.ui.view.UiHome"
+        tools:layout="@layout/fragment_ui_home"
+        android:label="UIHome" >
+        <action
+            android:id="@+id/action_UIHome_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.avantsoft.ui.view.EditFragment"
+        tools:layout="@layout/fragment_user_edit"
+        android:label="EditFragment" />
+</navigation>

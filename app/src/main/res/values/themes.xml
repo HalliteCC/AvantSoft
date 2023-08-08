@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AvantSoft" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#4A4A4A</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AvantSoft" parent="Base.Theme.AvantSoft" />
+</resources>
